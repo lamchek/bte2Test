@@ -103,6 +103,7 @@
     <type fullname="FontStyleService" preserve="all" />
     <type fullname="FPSCounter" preserve="all" />
     <type fullname="FpsCounterSwitcher" preserve="all" />
+    <type fullname="FrameUI" preserve="all" />
     <type fullname="FroggyProgress" preserve="all" />
     <type fullname="GalaxyPoint" preserve="all" />
     <type fullname="GameAutomatDataHolder" preserve="all" />
@@ -119,9 +120,17 @@
     <type fullname="HomeStationExerciseListResultSource" preserve="all" />
     <type fullname="HomeStationExerciseListSelector" preserve="all" />
     <type fullname="HomeStationExerciseProvider" preserve="all" />
+    <type fullname="HomeStationInfoExerciseListHolder" preserve="all" />
+    <type fullname="HomeStationInfoExerciseListProvider" preserve="all" />
+    <type fullname="HomeStationInfoExerciseListResultSource" preserve="all" />
+    <type fullname="HomeStationInfoExerciseListSelector" preserve="all" />
     <type fullname="HomeStationLoadingWays" preserve="all" />
+    <type fullname="HomeStationRandomExerciseWithInfo" preserve="all" />
     <type fullname="HorseAnimation" preserve="all" />
+    <type fullname="InfoAndRandomExerciseDataHolder" preserve="all" />
     <type fullname="InfoDeepTextScriptable" preserve="all" />
+    <type fullname="InfoExerciseListItems" preserve="all" />
+    <type fullname="InfoExerciseListScriptable" preserve="all" />
     <type fullname="InfoMonitorResultBox" preserve="all" />
     <type fullname="InfoPointLessonProgress" preserve="all" />
     <type fullname="InfoPointSkillAccruer" preserve="all" />
@@ -217,6 +226,7 @@
     <type fullname="MiniGameUIAlt" preserve="all" />
     <type fullname="MiniInfoMonitor" preserve="all" />
     <type fullname="MonitorAnimator" preserve="all" />
+    <type fullname="MonitorAnimatorTony" preserve="all" />
     <type fullname="MonitorWithButtonsAnimator" preserve="all" />
     <type fullname="MouseEventSender" preserve="all" />
     <type fullname="MouseKeyboardGameUI" preserve="all" />
@@ -311,13 +321,17 @@
     <type fullname="ShelfieParticlesControl" preserve="all" />
     <type fullname="ShnoppyBaseText" preserve="all" />
     <type fullname="SkillAccruer" preserve="all" />
+    <type fullname="SkillItemAnimation" preserve="all" />
     <type fullname="SkillMenuBar" preserve="all" />
     <type fullname="SkillMenuControl" preserve="all" />
     <type fullname="SkillMenuEnergyLine" preserve="all" />
     <type fullname="SkillMenuScore" preserve="all" />
+    <type fullname="SkillsAdditionSettings" preserve="all" />
     <type fullname="SkillScore" preserve="all" />
     <type fullname="SkillsMenuService" preserve="all" />
     <type fullname="SkillsMenuUI" preserve="all" />
+    <type fullname="SkillsX" preserve="all" />
+    <type fullname="SkillsXUI" preserve="all" />
     <type fullname="SkillTankParticles" preserve="all" />
     <type fullname="SkyDom" preserve="all" />
     <type fullname="SkyDomConfigurator" preserve="all" />
@@ -357,6 +371,15 @@
     <type fullname="WordDataListScriptable" preserve="all" />
     <type fullname="WordSpawner" preserve="all" />
     <type fullname="WordVariants" preserve="all" />
+    <type fullname="Answer" preserve="nothing" serialized="true" />
+    <type fullname="AnswerData" preserve="nothing" serialized="true" />
+    <type fullname="Chunk" preserve="nothing" serialized="true" />
+    <type fullname="DeepText" preserve="nothing" serialized="true" />
+    <type fullname="Exercise" preserve="nothing" serialized="true" />
+    <type fullname="Paragraph" preserve="nothing" serialized="true" />
+    <type fullname="RichWord" preserve="nothing" serialized="true" />
+    <type fullname="Sentence" preserve="nothing" serialized="true" />
+    <type fullname="TaskData" preserve="nothing" serialized="true" />
     <type fullname="AdjustableCameraAnglesScriptable/AspectRatioAngles" preserve="nothing" serialized="true" />
     <type fullname="Ambients/AmbientAudio" preserve="nothing" serialized="true" />
     <type fullname="AudioEffects/AudioEffect" preserve="nothing" serialized="true" />
@@ -368,7 +391,6 @@
     <type fullname="ChooseOptionsUI/Template" preserve="nothing" serialized="true" />
     <type fullname="CillianBanners/MonitorInscriptionPrefab" preserve="nothing" serialized="true" />
     <type fullname="DonatSectors/DonatSector" preserve="nothing" serialized="true" />
-    <type fullname="EnergyAudio/AudioEffect" preserve="nothing" serialized="true" />
     <type fullname="FontStyleService/FontStyleObject" preserve="nothing" serialized="true" />
     <type fullname="LibrarySettings/LanguageLevelTranslate" preserve="nothing" serialized="true" />
     <type fullname="LibrarySettings/ResultAvailabilityMechanic" preserve="nothing" serialized="true" />
@@ -386,20 +408,19 @@
     <type fullname="ReactionService/ExerciseReactions" preserve="nothing" serialized="true" />
     <type fullname="ReactionService/LimiterReactions" preserve="nothing" serialized="true" />
     <type fullname="ReactionService/TaskReactions" preserve="nothing" serialized="true" />
+    <type fullname="ResultScriptable/HardnessMatch" preserve="nothing" serialized="true" />
     <type fullname="ResultScriptable/ResultMatch" preserve="nothing" serialized="true" />
     <type fullname="Skill" preserve="nothing" serialized="true" />
     <type fullname="SkillSet" preserve="nothing" serialized="true" />
+    <type fullname="SkillsX/SkillsXTime" preserve="nothing" serialized="true" />
     <type fullname="TaskHardness" preserve="nothing" serialized="true" />
+    <type fullname="TaskHardnessPair" preserve="nothing" serialized="true" />
     <type fullname="UISizeSettingsScriptable/AbstractSize" preserve="nothing" serialized="true" />
     <type fullname="UISizeSettingsScriptable/DeviceUISize" preserve="nothing" serialized="true" />
-    <type fullname="DeepText" preserve="nothing" serialized="true" />
     <type fullname="EnergyBatteryCircleColors/MeshIndex" preserve="nothing" serialized="true" />
     <type fullname="LoadAdditionalHomeScenes/SceneReference" preserve="nothing" serialized="true" />
-    <type fullname="Paragraph" preserve="nothing" serialized="true" />
     <type fullname="Paragraph/ParagraphTranslate" preserve="nothing" serialized="true" />
     <type fullname="RenderBanners/RenderBannerPrefab" preserve="nothing" serialized="true" />
-    <type fullname="RichWord" preserve="nothing" serialized="true" />
-    <type fullname="Sentence" preserve="nothing" serialized="true" />
     <type fullname="Zone" preserve="nothing" serialized="true" />
     <type fullname="DeskResources/MaterialKvp" preserve="nothing" serialized="true" />
     <type fullname="DeskResources/MeshKvp" preserve="nothing" serialized="true" />
@@ -411,11 +432,6 @@
     <type fullname="WordData" preserve="nothing" serialized="true" />
     <type fullname="WordDataListScriptable/WordDataWrapper" preserve="nothing" serialized="true" />
     <type fullname="ExerciseMonitorRenderObjects/MonitorInscriptionPrefab" preserve="nothing" serialized="true" />
-    <type fullname="Answer" preserve="nothing" serialized="true" />
-    <type fullname="AnswerData" preserve="nothing" serialized="true" />
-    <type fullname="Chunk" preserve="nothing" serialized="true" />
-    <type fullname="Exercise" preserve="nothing" serialized="true" />
-    <type fullname="TaskData" preserve="nothing" serialized="true" />
     <type fullname="SentenceTranslate" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="Cinemachine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
@@ -461,6 +477,7 @@
     <type fullname="UnityEngine.AddressableAssets.AssetReferenceT`1[ExerciseScriptable]" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.AddressableAssets.AssetReferenceT`1[ExerciseListLocal]" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.AddressableAssets.AssetReferenceT`1[LibraryDeepTextScriptable]" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.AddressableAssets.AssetReferenceT`1[InfoExerciseListScriptable]" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="Unity.InputSystem, Version=1.7.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.InputSystem.InputActionAsset" preserve="all" />
@@ -535,13 +552,10 @@
     <type fullname="TMPro.FaceInfo_Legacy" preserve="nothing" serialized="true" />
     <type fullname="TMPro.FontAssetCreationSettings" preserve="nothing" serialized="true" />
     <type fullname="TMPro.KerningTable" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.TMP_Character" preserve="nothing" serialized="true" />
     <type fullname="TMPro.TMP_FontFeatureTable" preserve="nothing" serialized="true" />
     <type fullname="TMPro.TMP_FontWeightPair" preserve="nothing" serialized="true" />
     <type fullname="TMPro.VertexGradient" preserve="nothing" serialized="true" />
-    <type fullname="TMPro.TMP_Character" preserve="nothing" serialized="true" />
-    <type fullname="TMPro.TMP_GlyphAdjustmentRecord" preserve="nothing" serialized="true" />
-    <type fullname="TMPro.TMP_GlyphPairAdjustmentRecord" preserve="nothing" serialized="true" />
-    <type fullname="TMPro.TMP_GlyphValueRecord" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="UnityEngine.AnimationModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.Animation" preserve="all" />
