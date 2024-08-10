@@ -76,6 +76,7 @@
     <type fullname="ECExplodingProjectile" preserve="all" />
     <type fullname="ECparticleColorChangerMaster" preserve="all" />
     <type fullname="EditorHomeStationLoadingController" preserve="all" />
+    <type fullname="EditorLoadHallOnly" preserve="all" />
     <type fullname="ElevatorDownHandler" preserve="all" />
     <type fullname="ElevatorInteractablePanel" preserve="all" />
     <type fullname="ElevatorPanelDoorAnimatorCollider" preserve="all" />
@@ -206,7 +207,6 @@
     <type fullname="ListeningVisualizer" preserve="all" />
     <type fullname="ListenTask" preserve="all" />
     <type fullname="LoadAdditionalHomeScenes" preserve="all" />
-    <type fullname="LoadHallOnly" preserve="all" />
     <type fullname="MagnyAnimators" preserve="all" />
     <type fullname="MainCamera" preserve="all" />
     <type fullname="MainPlayer" preserve="all" />
@@ -556,9 +556,6 @@
     <type fullname="TMPro.TMP_Character" preserve="nothing" serialized="true" />
     <type fullname="TMPro.TMP_FontFeatureTable" preserve="nothing" serialized="true" />
     <type fullname="TMPro.TMP_FontWeightPair" preserve="nothing" serialized="true" />
-    <type fullname="TMPro.TMP_GlyphAdjustmentRecord" preserve="nothing" serialized="true" />
-    <type fullname="TMPro.TMP_GlyphPairAdjustmentRecord" preserve="nothing" serialized="true" />
-    <type fullname="TMPro.TMP_GlyphValueRecord" preserve="nothing" serialized="true" />
     <type fullname="TMPro.VertexGradient" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="UnityEngine.AnimationModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
