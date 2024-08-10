@@ -329,7 +329,6 @@
     <type fullname="SkillScore" preserve="all" />
     <type fullname="SkillsMenuService" preserve="all" />
     <type fullname="SkillsMenuUI" preserve="all" />
-    <type fullname="SkillsX" preserve="all" />
     <type fullname="SkillsXUI" preserve="all" />
     <type fullname="SkillTankParticles" preserve="all" />
     <type fullname="SkyDom" preserve="all" />
@@ -411,7 +410,6 @@
     <type fullname="ResultScriptable/ResultMatch" preserve="nothing" serialized="true" />
     <type fullname="Skill" preserve="nothing" serialized="true" />
     <type fullname="SkillSet" preserve="nothing" serialized="true" />
-    <type fullname="SkillsX/SkillsXTime" preserve="nothing" serialized="true" />
     <type fullname="TaskHardness" preserve="nothing" serialized="true" />
     <type fullname="TaskHardnessPair" preserve="nothing" serialized="true" />
     <type fullname="UISizeSettingsScriptable/AbstractSize" preserve="nothing" serialized="true" />
@@ -555,6 +553,9 @@
     <type fullname="TMPro.TMP_FontFeatureTable" preserve="nothing" serialized="true" />
     <type fullname="TMPro.TMP_FontWeightPair" preserve="nothing" serialized="true" />
     <type fullname="TMPro.VertexGradient" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.TMP_GlyphAdjustmentRecord" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.TMP_GlyphPairAdjustmentRecord" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.TMP_GlyphValueRecord" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="UnityEngine.AnimationModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.Animation" preserve="all" />
