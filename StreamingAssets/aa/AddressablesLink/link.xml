@@ -66,8 +66,6 @@
     <type fullname="DeskResourcesDataHolder" preserve="all" />
     <type fullname="DifferentDeskInfo" preserve="all" />
     <type fullname="DonatCorridor" preserve="all" />
-    <type fullname="DonatSectorLoaderClockwise" preserve="all" />
-    <type fullname="DonatSectorLoaderCounterClockwise" preserve="all" />
     <type fullname="DonatSectorLoaderSimple" preserve="all" />
     <type fullname="DonatSectors" preserve="all" />
     <type fullname="DoorAnimatorEventListener" preserve="all" />
@@ -556,6 +554,9 @@
     <type fullname="TMPro.TMP_Character" preserve="nothing" serialized="true" />
     <type fullname="TMPro.TMP_FontFeatureTable" preserve="nothing" serialized="true" />
     <type fullname="TMPro.TMP_FontWeightPair" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.TMP_GlyphAdjustmentRecord" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.TMP_GlyphPairAdjustmentRecord" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.TMP_GlyphValueRecord" preserve="nothing" serialized="true" />
     <type fullname="TMPro.VertexGradient" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="UnityEngine.AnimationModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
