@@ -127,7 +127,6 @@
     <type fullname="HomeStationLoadingWays" preserve="all" />
     <type fullname="HomeStationRandomExerciseWithInfo" preserve="all" />
     <type fullname="HorseAnimation" preserve="all" />
-    <type fullname="InfoAndRandomExerciseDataHolder" preserve="all" />
     <type fullname="InfoDeepTextScriptable" preserve="all" />
     <type fullname="InfoExerciseListItems" preserve="all" />
     <type fullname="InfoExerciseListScriptable" preserve="all" />
@@ -141,6 +140,7 @@
     <type fullname="InputWayObjectSwitcher" preserve="all" />
     <type fullname="InscriptionObject" preserve="all" />
     <type fullname="InteractableObject" preserve="all" />
+    <type fullname="IntroOuterSpace" preserve="all" />
     <type fullname="Jampator" preserve="all" />
     <type fullname="JerryAnimation" preserve="all" />
     <type fullname="Keyboard3d" preserve="all" />
@@ -172,7 +172,6 @@
     <type fullname="Lessons.Occlusion_Cookie.OcclusionCookieScene" preserve="all" />
     <type fullname="Lessons.Occlusion_Cookie.OcclusionExcluder" preserve="all" />
     <type fullname="LessonsList" preserve="all" />
-    <type fullname="LessonToHomeStationTeleport" preserve="all" />
     <type fullname="LibraryDataHolder" preserve="all" />
     <type fullname="LibraryDeepTextItem" preserve="all" />
     <type fullname="LibraryDeepTextItemsList" preserve="all" />
@@ -216,6 +215,7 @@
     <type fullname="MainScene.Player.PlayerLight" preserve="all" />
     <type fullname="MainScene.Services.RenderScaler" preserve="all" />
     <type fullname="MainSceneEntryPoint" preserve="all" />
+    <type fullname="MainSceneLoader" preserve="all" />
     <type fullname="MenuController" preserve="all" />
     <type fullname="MessageService" preserve="all" />
     <type fullname="MessageUI" preserve="all" />
@@ -266,8 +266,8 @@
     <type fullname="PointRotate" preserve="all" />
     <type fullname="PortalCameraEffect" preserve="all" />
     <type fullname="PortalHomeStationLoadingController" preserve="all" />
-    <type fullname="PostEffectLessonPortalControl" preserve="all" />
     <type fullname="PostEffects" preserve="all" />
+    <type fullname="PostProcessingRoot" preserve="all" />
     <type fullname="PrepositionsPlayground.PlayerPickUpDrop" preserve="all" />
     <type fullname="ProjectData" preserve="all" />
     <type fullname="PutInCorrectOrder" preserve="all" />
@@ -335,7 +335,6 @@
     <type fullname="SkyDomConfigurator" preserve="all" />
     <type fullname="SkyDomSettings" preserve="all" />
     <type fullname="SmoothDampFollowing" preserve="all" />
-    <type fullname="SoundEffectControl" preserve="all" />
     <type fullname="SpaceAnimations" preserve="all" />
     <type fullname="SpaceshipNotesSwitcher" preserve="all" />
     <type fullname="Spelling" preserve="all" />
@@ -347,6 +346,7 @@
     <type fullname="TargetsMumBottom" preserve="all" />
     <type fullname="TargetsMumTop" preserve="all" />
     <type fullname="TaskFactory" preserve="all" />
+    <type fullname="Tetrahedralize" preserve="all" />
     <type fullname="TextMeshProColors" preserve="all" />
     <type fullname="TextMeshProOpacity" preserve="all" />
     <type fullname="TextUI" preserve="all" />
@@ -364,7 +364,6 @@
     <type fullname="UIVisualService" preserve="all" />
     <type fullname="UnloadAdditionalHomeScenes" preserve="all" />
     <type fullname="UserQualitySettings" preserve="all" />
-    <type fullname="VFXPortalControl" preserve="all" />
     <type fullname="WordBrick" preserve="all" />
     <type fullname="WordDataListScriptable" preserve="all" />
     <type fullname="WordSpawner" preserve="all" />
@@ -422,8 +421,8 @@
     <type fullname="DeskResources/MaterialKvp" preserve="nothing" serialized="true" />
     <type fullname="DeskResources/MeshKvp" preserve="nothing" serialized="true" />
     <type fullname="LightHouseSettings" preserve="nothing" serialized="true" />
-    <type fullname="UnloadAdditionalHomeScenes/SceneReference" preserve="nothing" serialized="true" />
     <type fullname="ExerciseReferenceData" preserve="nothing" serialized="true" />
+    <type fullname="UnloadAdditionalHomeScenes/SceneReference" preserve="nothing" serialized="true" />
     <type fullname="LibraryDeepTextItem/LibraryDeepTextReferenceItem" preserve="nothing" serialized="true" />
     <type fullname="ECparticleColorChangerMaster/colorChange" preserve="nothing" serialized="true" />
     <type fullname="WordData" preserve="nothing" serialized="true" />
@@ -552,10 +551,10 @@
     <type fullname="TMPro.TMP_Character" preserve="nothing" serialized="true" />
     <type fullname="TMPro.TMP_FontFeatureTable" preserve="nothing" serialized="true" />
     <type fullname="TMPro.TMP_FontWeightPair" preserve="nothing" serialized="true" />
-    <type fullname="TMPro.VertexGradient" preserve="nothing" serialized="true" />
     <type fullname="TMPro.TMP_GlyphAdjustmentRecord" preserve="nothing" serialized="true" />
     <type fullname="TMPro.TMP_GlyphPairAdjustmentRecord" preserve="nothing" serialized="true" />
     <type fullname="TMPro.TMP_GlyphValueRecord" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.VertexGradient" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="UnityEngine.AnimationModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.Animation" preserve="all" />
