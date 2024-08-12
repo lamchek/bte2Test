@@ -377,6 +377,17 @@
     <type fullname="RichWord" preserve="nothing" serialized="true" />
     <type fullname="Sentence" preserve="nothing" serialized="true" />
     <type fullname="TaskData" preserve="nothing" serialized="true" />
+    <type fullname="EnergyBatteryCircleColors/MeshIndex" preserve="nothing" serialized="true" />
+    <type fullname="LoadAdditionalHomeScenes/SceneReference" preserve="nothing" serialized="true" />
+    <type fullname="Paragraph/ParagraphTranslate" preserve="nothing" serialized="true" />
+    <type fullname="RenderBanners/RenderBannerPrefab" preserve="nothing" serialized="true" />
+    <type fullname="Zone" preserve="nothing" serialized="true" />
+    <type fullname="DeskResources/MaterialKvp" preserve="nothing" serialized="true" />
+    <type fullname="DeskResources/MeshKvp" preserve="nothing" serialized="true" />
+    <type fullname="LightHouseSettings" preserve="nothing" serialized="true" />
+    <type fullname="ExerciseReferenceData" preserve="nothing" serialized="true" />
+    <type fullname="UnloadAdditionalHomeScenes/SceneReference" preserve="nothing" serialized="true" />
+    <type fullname="LibraryDeepTextItem/LibraryDeepTextReferenceItem" preserve="nothing" serialized="true" />
     <type fullname="AdjustableCameraAnglesScriptable/AspectRatioAngles" preserve="nothing" serialized="true" />
     <type fullname="Ambients/AmbientAudio" preserve="nothing" serialized="true" />
     <type fullname="AudioEffects/AudioEffect" preserve="nothing" serialized="true" />
@@ -413,17 +424,6 @@
     <type fullname="TaskHardnessPair" preserve="nothing" serialized="true" />
     <type fullname="UISizeSettingsScriptable/AbstractSize" preserve="nothing" serialized="true" />
     <type fullname="UISizeSettingsScriptable/DeviceUISize" preserve="nothing" serialized="true" />
-    <type fullname="EnergyBatteryCircleColors/MeshIndex" preserve="nothing" serialized="true" />
-    <type fullname="LoadAdditionalHomeScenes/SceneReference" preserve="nothing" serialized="true" />
-    <type fullname="Paragraph/ParagraphTranslate" preserve="nothing" serialized="true" />
-    <type fullname="RenderBanners/RenderBannerPrefab" preserve="nothing" serialized="true" />
-    <type fullname="Zone" preserve="nothing" serialized="true" />
-    <type fullname="DeskResources/MaterialKvp" preserve="nothing" serialized="true" />
-    <type fullname="DeskResources/MeshKvp" preserve="nothing" serialized="true" />
-    <type fullname="LightHouseSettings" preserve="nothing" serialized="true" />
-    <type fullname="ExerciseReferenceData" preserve="nothing" serialized="true" />
-    <type fullname="UnloadAdditionalHomeScenes/SceneReference" preserve="nothing" serialized="true" />
-    <type fullname="LibraryDeepTextItem/LibraryDeepTextReferenceItem" preserve="nothing" serialized="true" />
     <type fullname="ECparticleColorChangerMaster/colorChange" preserve="nothing" serialized="true" />
     <type fullname="WordData" preserve="nothing" serialized="true" />
     <type fullname="WordDataListScriptable/WordDataWrapper" preserve="nothing" serialized="true" />
@@ -441,14 +441,14 @@
     <type fullname="Cinemachine.CinemachineVirtualCamera" preserve="all" />
     <type fullname="Cinemachine.NoiseSettings" preserve="all" />
     <type fullname="Cinemachine.CinemachineBlendDefinition" preserve="nothing" serialized="true" />
-    <type fullname="Cinemachine.CinemachineBlenderSettings/CustomBlend" preserve="nothing" serialized="true" />
-    <type fullname="Cinemachine.CinemachineBrain/BrainEvent" preserve="nothing" serialized="true" />
+    <type fullname="Cinemachine.CinemachineBlendListCamera/Instruction" preserve="nothing" serialized="true" />
     <type fullname="Cinemachine.CinemachineBrain/VcamActivatedEvent" preserve="nothing" serialized="true" />
     <type fullname="Cinemachine.CinemachineVirtualCameraBase/TransitionParams" preserve="nothing" serialized="true" />
     <type fullname="Cinemachine.LensSettings" preserve="nothing" serialized="true" />
     <type fullname="Cinemachine.NoiseSettings/NoiseParams" preserve="nothing" serialized="true" />
     <type fullname="Cinemachine.NoiseSettings/TransformNoiseParams" preserve="nothing" serialized="true" />
-    <type fullname="Cinemachine.CinemachineBlendListCamera/Instruction" preserve="nothing" serialized="true" />
+    <type fullname="Cinemachine.CinemachineBlenderSettings/CustomBlend" preserve="nothing" serialized="true" />
+    <type fullname="Cinemachine.CinemachineBrain/BrainEvent" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="Recognissimo, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="Recognissimo.Components.MicrophoneSpeechSource" preserve="all" />
@@ -467,12 +467,12 @@
   <assembly fullname="Unity.Addressables, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" preserve="all">
     <type fullname="UnityEngine.AddressableAssets.Addressables" preserve="all" />
     <type fullname="UnityEngine.AddressableAssets.AssetReference" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.AddressableAssets.AssetReferenceT`1[AdvertisementRoot]" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.AddressableAssets.AssetReferenceT`1[FontStyle]" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.AddressableAssets.AssetReferenceT`1[WordDataListScriptable]" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.AddressableAssets.AssetReferenceT`1[ExerciseScriptable]" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.AddressableAssets.AssetReferenceT`1[ExerciseListLocal]" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.AddressableAssets.AssetReferenceT`1[LibraryDeepTextScriptable]" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.AddressableAssets.AssetReferenceT`1[AdvertisementRoot]" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.AddressableAssets.AssetReferenceT`1[FontStyle]" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.AddressableAssets.AssetReferenceT`1[WordDataListScriptable]" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.AddressableAssets.AssetReferenceT`1[InfoExerciseListScriptable]" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="Unity.InputSystem, Version=1.7.0.0, Culture=neutral, PublicKeyToken=null">
@@ -516,11 +516,11 @@
     <type fullname="UnityEngine.Rendering.Universal.UniversalAdditionalCameraData" preserve="all" />
     <type fullname="UnityEngine.Rendering.Universal.UniversalAdditionalLightData" preserve="all" />
     <type fullname="UnityEngine.Rendering.Universal.Vignette" preserve="all" />
+    <type fullname="UnityEngine.Rendering.Universal.TemporalAA/Settings" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Rendering.Universal.DownscaleParameter" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Rendering.Universal.FilmGrainLookupParameter" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Rendering.Universal.MotionBlurModeParameter" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Rendering.Universal.MotionBlurQualityParameter" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.Rendering.Universal.TemporalAA/Settings" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="Unity.ResourceManager, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" preserve="all">
     <type fullname="UnityEngine.ResourceManagement.ResourceProviders.AssetBundleProvider" preserve="all" />
@@ -548,10 +548,10 @@
     <type fullname="TMPro.FaceInfo_Legacy" preserve="nothing" serialized="true" />
     <type fullname="TMPro.FontAssetCreationSettings" preserve="nothing" serialized="true" />
     <type fullname="TMPro.KerningTable" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.TMP_Character" preserve="nothing" serialized="true" />
     <type fullname="TMPro.TMP_FontFeatureTable" preserve="nothing" serialized="true" />
     <type fullname="TMPro.TMP_FontWeightPair" preserve="nothing" serialized="true" />
     <type fullname="TMPro.VertexGradient" preserve="nothing" serialized="true" />
-    <type fullname="TMPro.TMP_Character" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="UnityEngine.AnimationModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.Animation" preserve="all" />
