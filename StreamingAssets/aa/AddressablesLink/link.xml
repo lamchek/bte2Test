@@ -4,8 +4,10 @@
     <type fullname="AdjustableAudioVolume" preserve="all" />
     <type fullname="AdjustableCameraAngle" preserve="all" />
     <type fullname="AdjustableCameraAnglesScriptable" preserve="all" />
+    <type fullname="AdjustableCameraAngleWithFactor" preserve="all" />
     <type fullname="AdvertisementContent" preserve="all" />
     <type fullname="AdvertisementRoot" preserve="all" />
+    <type fullname="AfterListenFlyLoadingController" preserve="all" />
     <type fullname="Ambients" preserve="all" />
     <type fullname="AnimatorActivateCollider" preserve="all" />
     <type fullname="AttackLampsBar" preserve="all" />
@@ -43,7 +45,6 @@
     <type fullname="CubeUnitSpawner" preserve="all" />
     <type fullname="CursorLocker" preserve="all" />
     <type fullname="CursorUnlockZoneInteractable" preserve="all" />
-    <type fullname="DecompressionRoom" preserve="all" />
     <type fullname="DeepTextScriptable" preserve="all" />
     <type fullname="DonatCorridor" preserve="all" />
     <type fullname="DonatSectorLoaderSimple" preserve="all" />
@@ -102,7 +103,6 @@
     <type fullname="InfoPointSkillAccruer" preserve="all" />
     <type fullname="InfoZoneDataHolder" preserve="all" />
     <type fullname="InfoZoneResultBox" preserve="all" />
-    <type fullname="InfoZoneSettings" preserve="all" />
     <type fullname="InputSwitcher" preserve="all" />
     <type fullname="InputWayObjectSwitcher" preserve="all" />
     <type fullname="InscriptionObject" preserve="all" />
@@ -122,7 +122,6 @@
     <type fullname="LessonLoader" preserve="all" />
     <type fullname="LessonLoadingWays" preserve="all" />
     <type fullname="LessonMainStaircaseLoader" preserve="all" />
-    <type fullname="LessonPaymentPoint" preserve="all" />
     <type fullname="LessonPlayerEntryPoint" preserve="all" />
     <type fullname="LessonPlayerReceiver" preserve="all" />
     <type fullname="LessonPlayerTeleporterEditor" preserve="all" />
@@ -150,14 +149,17 @@
     <type fullname="ListenFlyAmbient" preserve="all" />
     <type fullname="ListenFlyClearPath" preserve="all" />
     <type fullname="ListenFlyDataHolder" preserve="all" />
+    <type fullname="ListenFlyDeepTextReferenceDataList" preserve="all" />
     <type fullname="ListenFlyDeepTextScriptable" preserve="all" />
     <type fullname="ListenFlyEventBus" preserve="all" />
     <type fullname="ListenFlyExit" preserve="all" />
     <type fullname="ListenFlyExitButton" preserve="all" />
+    <type fullname="ListenFlyInteractableDataHolder" preserve="all" />
     <type fullname="ListenFlyMechanicEntryPoint" preserve="all" />
     <type fullname="ListenFlyMonitor" preserve="all" />
     <type fullname="ListenFlySkillAccruer" preserve="all" />
     <type fullname="ListenFlySpaceshipReferences" preserve="all" />
+    <type fullname="ListenFlyStarter" preserve="all" />
     <type fullname="ListenFlySubtitleUI" preserve="all" />
     <type fullname="ListenFlyUI" preserve="all" />
     <type fullname="ListeningVisualizer" preserve="all" />
@@ -227,6 +229,7 @@
     <type fullname="ReadCheckMenu" preserve="all" />
     <type fullname="ReadCheckObjectSwitcher" preserve="all" />
     <type fullname="ReadCheckTextLoader" preserve="all" />
+    <type fullname="ReadingListeningSettings" preserve="all" />
     <type fullname="ReadingTask" preserve="all" />
     <type fullname="RegistrationPoint.RegistrationPointInteractable" preserve="all" />
     <type fullname="RegistrationPointUI" preserve="all" />
@@ -298,6 +301,7 @@
     <type fullname="ExerciseReferenceData" preserve="nothing" serialized="true" />
     <type fullname="UnloadAdditionalHomeScenes/SceneReference" preserve="nothing" serialized="true" />
     <type fullname="DeepText" preserve="nothing" serialized="true" />
+    <type fullname="ListenFlyDeepTextReferenceData" preserve="nothing" serialized="true" />
     <type fullname="LoadAdditionalHomeScenes/SceneReference" preserve="nothing" serialized="true" />
     <type fullname="Paragraph" preserve="nothing" serialized="true" />
     <type fullname="Paragraph/ParagraphTranslate" preserve="nothing" serialized="true" />
@@ -390,6 +394,7 @@
     <type fullname="UnityEngine.AddressableAssets.Addressables" preserve="all" />
     <type fullname="UnityEngine.AddressableAssets.AssetReference" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.AddressableAssets.AssetReferenceT`1[ExerciseScriptable]" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.AddressableAssets.AssetReferenceT`1[ListenFlyDeepTextScriptable]" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.AddressableAssets.AssetReferenceT`1[LibraryDeepTextScriptable]" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.AddressableAssets.AssetReferenceT`1[AdvertisementRoot]" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.AddressableAssets.AssetReferenceT`1[FontStyle]" preserve="nothing" serialized="true" />
@@ -474,6 +479,9 @@
     <type fullname="TMPro.TMP_FontWeightPair" preserve="nothing" serialized="true" />
     <type fullname="TMPro.VertexGradient" preserve="nothing" serialized="true" />
     <type fullname="TMPro.TMP_Character" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.TMP_GlyphAdjustmentRecord" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.TMP_GlyphPairAdjustmentRecord" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.TMP_GlyphValueRecord" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="UnityEngine.AnimationModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.Animation" preserve="all" />
@@ -489,6 +497,7 @@
   </assembly>
   <assembly fullname="UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.Camera" preserve="all" />
+    <type fullname="UnityEngine.Cubemap" preserve="all" />
     <type fullname="UnityEngine.GameObject" preserve="all" />
     <type fullname="UnityEngine.Light" preserve="all" />
     <type fullname="UnityEngine.LightingSettings" preserve="all" />
