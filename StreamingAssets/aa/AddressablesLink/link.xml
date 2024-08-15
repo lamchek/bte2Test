@@ -1,5 +1,6 @@
 <linker>
   <assembly fullname="Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="ActionButtonService" preserve="all" />
     <type fullname="ActivityControl" preserve="all" />
     <type fullname="AdjustableAudioVolume" preserve="all" />
     <type fullname="AdjustableCameraAngle" preserve="all" />
@@ -21,6 +22,7 @@
     <type fullname="Brick" preserve="all" />
     <type fullname="BrickSoundEffect" preserve="all" />
     <type fullname="BricksSpawner" preserve="all" />
+    <type fullname="BridgeLightChanger" preserve="all" />
     <type fullname="ButtonColliderWithoutMesh" preserve="all" />
     <type fullname="CharacteristicSettings" preserve="all" />
     <type fullname="CheckMicrophoneMode" preserve="all" />
@@ -45,6 +47,7 @@
     <type fullname="CubeUnitSpawner" preserve="all" />
     <type fullname="CursorLocker" preserve="all" />
     <type fullname="CursorUnlockZoneInteractable" preserve="all" />
+    <type fullname="DecompressionRoom" preserve="all" />
     <type fullname="DeepTextScriptable" preserve="all" />
     <type fullname="DonatCorridor" preserve="all" />
     <type fullname="DonatSectorLoaderSimple" preserve="all" />
@@ -106,7 +109,10 @@
     <type fullname="InputSwitcher" preserve="all" />
     <type fullname="InputWayObjectSwitcher" preserve="all" />
     <type fullname="InscriptionObject" preserve="all" />
+    <type fullname="InteractableLight" preserve="all" />
+    <type fullname="InteractableLightSwitcher" preserve="all" />
     <type fullname="InteractableObject" preserve="all" />
+    <type fullname="IntroLoadingController" preserve="all" />
     <type fullname="IntroOuterSpace" preserve="all" />
     <type fullname="Jampator" preserve="all" />
     <type fullname="JerryAnimation" preserve="all" />
@@ -122,6 +128,7 @@
     <type fullname="LessonLoader" preserve="all" />
     <type fullname="LessonLoadingWays" preserve="all" />
     <type fullname="LessonMainStaircaseLoader" preserve="all" />
+    <type fullname="LessonPaymentPoint" preserve="all" />
     <type fullname="LessonPlayerEntryPoint" preserve="all" />
     <type fullname="LessonPlayerReceiver" preserve="all" />
     <type fullname="LessonPlayerTeleporterEditor" preserve="all" />
@@ -193,9 +200,11 @@
     <type fullname="OcclusionGroup" preserve="all" />
     <type fullname="OneTimeExerciseProvider" preserve="all" />
     <type fullname="OnMouseDownWithEvent" preserve="all" />
+    <type fullname="OuterSpaceSceneLoader" preserve="all" />
     <type fullname="ParktronikRaycast" preserve="all" />
     <type fullname="ParktronikWarning" preserve="all" />
     <type fullname="PauseUI" preserve="all" />
+    <type fullname="PlanetAnimation" preserve="all" />
     <type fullname="Player.Cillian.BottomUI.BottomUI" preserve="all" />
     <type fullname="Player.Cillian.Cillian" preserve="all" />
     <type fullname="Player.Cillian.CillianIcons" preserve="all" />
@@ -211,7 +220,6 @@
     <type fullname="PlayerSettingsNamespace.PlayerSettingsScriptable" preserve="all" />
     <type fullname="PointLeftRight" preserve="all" />
     <type fullname="PointRotate" preserve="all" />
-    <type fullname="PortalHomeStationLoadingController" preserve="all" />
     <type fullname="PostEffects" preserve="all" />
     <type fullname="PostProcessingRoot" preserve="all" />
     <type fullname="PrepositionsPlayground.PlayerPickUpDrop" preserve="all" />
@@ -243,6 +251,7 @@
     <type fullname="Results.ResultBox.BaseResultBox" preserve="all" />
     <type fullname="ResultScriptable" preserve="all" />
     <type fullname="RotateToMainCameraWithoutX" preserve="all" />
+    <type fullname="RotateToMainCameraWithoutXPlanet" preserve="all" />
     <type fullname="SceneCounter" preserve="all" />
     <type fullname="SceneHelper" preserve="all" />
     <type fullname="Services.PostEffects.AberrationEffects" preserve="all" />
@@ -265,11 +274,7 @@
     <type fullname="SkillsMenuService" preserve="all" />
     <type fullname="SkillsMenuUI" preserve="all" />
     <type fullname="SkillsXUI" preserve="all" />
-    <type fullname="SkyDom" preserve="all" />
-    <type fullname="SkyDomConfigurator" preserve="all" />
-    <type fullname="SkyDomSettings" preserve="all" />
     <type fullname="SmoothDampFollowing" preserve="all" />
-    <type fullname="SpaceAnimations" preserve="all" />
     <type fullname="SpaceshipNotesSwitcher" preserve="all" />
     <type fullname="Spelling" preserve="all" />
     <type fullname="StarterAssets.MyFirstPersonController" preserve="all" />
@@ -363,7 +368,9 @@
     <type fullname="Cinemachine.CinemachineBlenderSettings" preserve="all" />
     <type fullname="Cinemachine.CinemachineBlendListCamera" preserve="all" />
     <type fullname="Cinemachine.CinemachineBrain" preserve="all" />
+    <type fullname="Cinemachine.CinemachineComposer" preserve="all" />
     <type fullname="Cinemachine.CinemachinePipeline" preserve="all" />
+    <type fullname="Cinemachine.CinemachineTransposer" preserve="all" />
     <type fullname="Cinemachine.CinemachineVirtualCamera" preserve="all" />
     <type fullname="Cinemachine.NoiseSettings" preserve="all" />
     <type fullname="Cinemachine.CinemachineBlendDefinition" preserve="nothing" serialized="true" />
