@@ -17,6 +17,7 @@
     <type fullname="AudioPlayer" preserve="all" />
     <type fullname="AudioService" preserve="all" />
     <type fullname="AudioSettingsScriptable" preserve="all" />
+    <type fullname="BaseLessonLoader" preserve="all" />
     <type fullname="BasicRigidBodyPush" preserve="all" />
     <type fullname="BlackoutScreen" preserve="all" />
     <type fullname="Brick" preserve="all" />
@@ -98,6 +99,7 @@
     <type fullname="HomeStationLoadingWays" preserve="all" />
     <type fullname="HomeStationRandomExerciseWithInfo" preserve="all" />
     <type fullname="HorseAnimation" preserve="all" />
+    <type fullname="InfoAndRandomExerciseDataHolder" preserve="all" />
     <type fullname="InfoDeepTextScriptable" preserve="all" />
     <type fullname="InfoExerciseListItems" preserve="all" />
     <type fullname="InfoExerciseListScriptable" preserve="all" />
@@ -121,6 +123,8 @@
     <type fullname="LessonContentLoader" preserve="all" />
     <type fullname="LessonEditorLoadingController" preserve="all" />
     <type fullname="LessonEffects" preserve="all" />
+    <type fullname="LessonElevator" preserve="all" />
+    <type fullname="LessonElevatorInteractable" preserve="all" />
     <type fullname="LessonEntryPoint" preserve="all" />
     <type fullname="LessonExerciseListDataHolder" preserve="all" />
     <type fullname="LessonHomeScenesSwitcher" preserve="all" />
@@ -141,6 +145,7 @@
     <type fullname="Lessons.Occlusion_Cookie.OcclusionCookieParent" preserve="all" />
     <type fullname="Lessons.Occlusion_Cookie.OcclusionCookieScene" preserve="all" />
     <type fullname="LessonsList" preserve="all" />
+    <type fullname="LessonToHallDoor" preserve="all" />
     <type fullname="LibraryDataHolder" preserve="all" />
     <type fullname="LibraryDeepTextItem" preserve="all" />
     <type fullname="LibraryDeepTextItemsList" preserve="all" />
@@ -193,6 +198,7 @@
     <type fullname="MiniInfoMonitor" preserve="all" />
     <type fullname="MonitorAnimator" preserve="all" />
     <type fullname="MonitorAnimatorTony" preserve="all" />
+    <type fullname="MonitorAnimatorTonyWall" preserve="all" />
     <type fullname="MouseEventSender" preserve="all" />
     <type fullname="MouseKeyboardGameUI" preserve="all" />
     <type fullname="MouseKeyboardListenFlyUI" preserve="all" />
@@ -201,6 +207,8 @@
     <type fullname="OneTimeExerciseProvider" preserve="all" />
     <type fullname="OnMouseDownWithEvent" preserve="all" />
     <type fullname="OuterSpaceSceneLoader" preserve="all" />
+    <type fullname="Outliner" preserve="all" />
+    <type fullname="OutlineService" preserve="all" />
     <type fullname="ParktronikRaycast" preserve="all" />
     <type fullname="ParktronikWarning" preserve="all" />
     <type fullname="PauseUI" preserve="all" />
@@ -264,6 +272,7 @@
     <type fullname="SettingsUI" preserve="all" />
     <type fullname="ShapesFX.Rotator" preserve="all" />
     <type fullname="ShnoppyBaseText" preserve="all" />
+    <type fullname="SiloDoors" preserve="all" />
     <type fullname="SkillAccruer" preserve="all" />
     <type fullname="SkillItemAnimation" preserve="all" />
     <type fullname="SkillMenuBar" preserve="all" />
@@ -288,6 +297,7 @@
     <type fullname="TextMeshProColors" preserve="all" />
     <type fullname="TextMeshProOpacity" preserve="all" />
     <type fullname="TextUI" preserve="all" />
+    <type fullname="TonyAdditionalMonitorText" preserve="all" />
     <type fullname="TouchGameUI" preserve="all" />
     <type fullname="TouchListenFlyUI" preserve="all" />
     <type fullname="TouchMiniGameUI" preserve="all" />
@@ -486,6 +496,9 @@
     <type fullname="TMPro.TMP_FontWeightPair" preserve="nothing" serialized="true" />
     <type fullname="TMPro.VertexGradient" preserve="nothing" serialized="true" />
     <type fullname="TMPro.TMP_Character" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.TMP_GlyphAdjustmentRecord" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.TMP_GlyphPairAdjustmentRecord" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.TMP_GlyphValueRecord" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="UnityEngine.AnimationModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.Animation" preserve="all" />
