@@ -1,6 +1,7 @@
 <linker>
   <assembly fullname="Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="ActionButtonService" preserve="all" />
+    <type fullname="ActionButtonTextScriptable" preserve="all" />
     <type fullname="ActivityControl" preserve="all" />
     <type fullname="AdjustableAudioVolume" preserve="all" />
     <type fullname="AdjustableCameraAngle" preserve="all" />
@@ -21,6 +22,7 @@
     <type fullname="BasicRigidBodyPush" preserve="all" />
     <type fullname="BlackoutScreen" preserve="all" />
     <type fullname="Brick" preserve="all" />
+    <type fullname="BrickAnimated" preserve="all" />
     <type fullname="BrickSoundEffect" preserve="all" />
     <type fullname="BricksSpawner" preserve="all" />
     <type fullname="BridgeLightChanger" preserve="all" />
@@ -80,7 +82,8 @@
     <type fullname="FPSCounter" preserve="all" />
     <type fullname="FpsCounterSwitcher" preserve="all" />
     <type fullname="FrameUI" preserve="all" />
-    <type fullname="FroggyProgress" preserve="all" />
+    <type fullname="FroggyProgressForHundred" preserve="all" />
+    <type fullname="FroggyProgressForOne" preserve="all" />
     <type fullname="GameUI" preserve="all" />
     <type fullname="GliderController" preserve="all" />
     <type fullname="GoldenGun" preserve="all" />
@@ -100,6 +103,7 @@
     <type fullname="HomeStationRandomExerciseWithInfo" preserve="all" />
     <type fullname="HorseAnimation" preserve="all" />
     <type fullname="InfoAndRandomExerciseDataHolder" preserve="all" />
+    <type fullname="InfoCornerService" preserve="all" />
     <type fullname="InfoDeepTextScriptable" preserve="all" />
     <type fullname="InfoExerciseListItems" preserve="all" />
     <type fullname="InfoExerciseListScriptable" preserve="all" />
@@ -127,6 +131,7 @@
     <type fullname="LessonElevatorInteractable" preserve="all" />
     <type fullname="LessonEntryPoint" preserve="all" />
     <type fullname="LessonExerciseListDataHolder" preserve="all" />
+    <type fullname="LessonExerciseProvider" preserve="all" />
     <type fullname="LessonHomeScenesSwitcher" preserve="all" />
     <type fullname="LessonInfo" preserve="all" />
     <type fullname="LessonLoader" preserve="all" />
@@ -188,6 +193,7 @@
     <type fullname="MainScene.Services.RenderScaler" preserve="all" />
     <type fullname="MainSceneEntryPoint" preserve="all" />
     <type fullname="MainSceneLoader" preserve="all" />
+    <type fullname="MechanicsInfoScriptable" preserve="all" />
     <type fullname="MenuController" preserve="all" />
     <type fullname="MessageService" preserve="all" />
     <type fullname="MessageUI" preserve="all" />
@@ -204,7 +210,6 @@
     <type fullname="MouseKeyboardListenFlyUI" preserve="all" />
     <type fullname="OcclusionCookieSwitcher" preserve="all" />
     <type fullname="OcclusionGroup" preserve="all" />
-    <type fullname="OneTimeExerciseProvider" preserve="all" />
     <type fullname="OnMouseDownWithEvent" preserve="all" />
     <type fullname="OuterSpaceSceneLoader" preserve="all" />
     <type fullname="Outliner" preserve="all" />
@@ -249,7 +254,7 @@
     <type fullname="ReadingTask" preserve="all" />
     <type fullname="RegistrationPoint.RegistrationPointInteractable" preserve="all" />
     <type fullname="RegistrationPointUI" preserve="all" />
-    <type fullname="RenderBanners" preserve="all" />
+    <type fullname="RenderBannersLibrary" preserve="all" />
     <type fullname="RepeatTask" preserve="all" />
     <type fullname="RepeatVisualizer" preserve="all" />
     <type fullname="Results.LessonResultSource" preserve="all" />
@@ -313,17 +318,23 @@
     <type fullname="WordDataListScriptable" preserve="all" />
     <type fullname="WordSpawner" preserve="all" />
     <type fullname="WordVariants" preserve="all" />
+    <type fullname="Answer" preserve="nothing" serialized="true" />
+    <type fullname="AnswerData" preserve="nothing" serialized="true" />
+    <type fullname="DeepText" preserve="nothing" serialized="true" />
+    <type fullname="Exercise" preserve="nothing" serialized="true" />
+    <type fullname="RichWord" preserve="nothing" serialized="true" />
+    <type fullname="TaskData" preserve="nothing" serialized="true" />
     <type fullname="ExerciseReferenceData" preserve="nothing" serialized="true" />
     <type fullname="UnloadAdditionalHomeScenes/SceneReference" preserve="nothing" serialized="true" />
-    <type fullname="DeepText" preserve="nothing" serialized="true" />
     <type fullname="ListenFlyDeepTextReferenceData" preserve="nothing" serialized="true" />
     <type fullname="LoadAdditionalHomeScenes/SceneReference" preserve="nothing" serialized="true" />
     <type fullname="Paragraph" preserve="nothing" serialized="true" />
     <type fullname="Paragraph/ParagraphTranslate" preserve="nothing" serialized="true" />
-    <type fullname="RichWord" preserve="nothing" serialized="true" />
     <type fullname="Sentence" preserve="nothing" serialized="true" />
     <type fullname="LibraryDeepTextItem/LibraryDeepTextReferenceItem" preserve="nothing" serialized="true" />
-    <type fullname="RenderBanners/RenderBannerPrefab" preserve="nothing" serialized="true" />
+    <type fullname="RenderBannersLibrary/RenderBannerPrefab" preserve="nothing" serialized="true" />
+    <type fullname="Chunk" preserve="nothing" serialized="true" />
+    <type fullname="ActionButtonTextScriptable/LanguageText" preserve="nothing" serialized="true" />
     <type fullname="AdjustableCameraAnglesScriptable/AspectRatioAngles" preserve="nothing" serialized="true" />
     <type fullname="Ambients/AmbientAudio" preserve="nothing" serialized="true" />
     <type fullname="AudioEffects/AudioEffect" preserve="nothing" serialized="true" />
@@ -339,6 +350,9 @@
     <type fullname="LibrarySettings/LanguageLevelTranslate" preserve="nothing" serialized="true" />
     <type fullname="LibrarySettings/ResultAvailabilityMechanic" preserve="nothing" serialized="true" />
     <type fullname="LoadAssetOperation`1[UnityEngine.ResourceManagement.ResourceProviders.SceneInstance]" preserve="nothing" serialized="true" />
+    <type fullname="MechanicsInfoScriptable/LanguageText" preserve="nothing" serialized="true" />
+    <type fullname="MechanicsInfoScriptable/LanguageTexts" preserve="nothing" serialized="true" />
+    <type fullname="MechanicsInfoScriptable/MechanicInfo" preserve="nothing" serialized="true" />
     <type fullname="Player.Cillian.CillianIcons/IconItem" preserve="nothing" serialized="true" />
     <type fullname="PlayerSettingsNamespace.InputSchemePlayerSettings" preserve="nothing" serialized="true" />
     <type fullname="PlayerSettingsNamespace.OtherSettings" preserve="nothing" serialized="true" />
@@ -364,11 +378,6 @@
     <type fullname="WordDataListScriptable/WordDataWrapper" preserve="nothing" serialized="true" />
     <type fullname="ECparticleColorChangerMaster/colorChange" preserve="nothing" serialized="true" />
     <type fullname="Zone" preserve="nothing" serialized="true" />
-    <type fullname="Answer" preserve="nothing" serialized="true" />
-    <type fullname="AnswerData" preserve="nothing" serialized="true" />
-    <type fullname="Chunk" preserve="nothing" serialized="true" />
-    <type fullname="Exercise" preserve="nothing" serialized="true" />
-    <type fullname="TaskData" preserve="nothing" serialized="true" />
     <type fullname="SentenceTranslate" preserve="nothing" serialized="true" />
     <type fullname="ExerciseMonitorRenderObjects/MonitorInscriptionPrefab" preserve="nothing" serialized="true" />
   </assembly>
