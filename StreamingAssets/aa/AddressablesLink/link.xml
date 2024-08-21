@@ -118,12 +118,15 @@
     <type fullname="InteractableLight" preserve="all" />
     <type fullname="InteractableLightSwitcher" preserve="all" />
     <type fullname="InteractableObject" preserve="all" />
+    <type fullname="IntroInputSelector" preserve="all" />
     <type fullname="IntroLoadingController" preserve="all" />
     <type fullname="IntroOuterSpace" preserve="all" />
+    <type fullname="IntroTmpAnimator" preserve="all" />
     <type fullname="Jampator" preserve="all" />
     <type fullname="JerryAnimation" preserve="all" />
     <type fullname="Keyboard3d" preserve="all" />
     <type fullname="LanguageButton" preserve="all" />
+    <type fullname="LanguageTextsBoxScriptable" preserve="all" />
     <type fullname="LessonContentLoader" preserve="all" />
     <type fullname="LessonEditorLoadingController" preserve="all" />
     <type fullname="LessonEffects" preserve="all" />
@@ -182,6 +185,7 @@
     <type fullname="ListeningVisualizer" preserve="all" />
     <type fullname="ListenTask" preserve="all" />
     <type fullname="LoadAdditionalHomeScenes" preserve="all" />
+    <type fullname="LoadingDependencies" preserve="all" />
     <type fullname="MainCamera" preserve="all" />
     <type fullname="MainPlayer" preserve="all" />
     <type fullname="MainScene.Player.Characteristics.Characteristic" preserve="all" />
@@ -253,6 +257,7 @@
     <type fullname="ReadingListeningSettings" preserve="all" />
     <type fullname="ReadingTask" preserve="all" />
     <type fullname="RegistrationPoint.RegistrationPointInteractable" preserve="all" />
+    <type fullname="RegistrationPointInfoText" preserve="all" />
     <type fullname="RegistrationPointUI" preserve="all" />
     <type fullname="RenderBannersLibrary" preserve="all" />
     <type fullname="RepeatTask" preserve="all" />
@@ -313,6 +318,7 @@
     <type fullname="UISizeSettingsScriptable" preserve="all" />
     <type fullname="UIVisualService" preserve="all" />
     <type fullname="UnloadAdditionalHomeScenes" preserve="all" />
+    <type fullname="UserIdCorner" preserve="all" />
     <type fullname="UserQualitySettings" preserve="all" />
     <type fullname="WordBrick" preserve="all" />
     <type fullname="WordDataListScriptable" preserve="all" />
@@ -325,12 +331,12 @@
     <type fullname="RichWord" preserve="nothing" serialized="true" />
     <type fullname="TaskData" preserve="nothing" serialized="true" />
     <type fullname="ExerciseReferenceData" preserve="nothing" serialized="true" />
-    <type fullname="UnloadAdditionalHomeScenes/SceneReference" preserve="nothing" serialized="true" />
-    <type fullname="ListenFlyDeepTextReferenceData" preserve="nothing" serialized="true" />
-    <type fullname="LoadAdditionalHomeScenes/SceneReference" preserve="nothing" serialized="true" />
     <type fullname="Paragraph" preserve="nothing" serialized="true" />
     <type fullname="Paragraph/ParagraphTranslate" preserve="nothing" serialized="true" />
     <type fullname="Sentence" preserve="nothing" serialized="true" />
+    <type fullname="UnloadAdditionalHomeScenes/SceneReference" preserve="nothing" serialized="true" />
+    <type fullname="ListenFlyDeepTextReferenceData" preserve="nothing" serialized="true" />
+    <type fullname="LoadAdditionalHomeScenes/SceneReference" preserve="nothing" serialized="true" />
     <type fullname="LibraryDeepTextItem/LibraryDeepTextReferenceItem" preserve="nothing" serialized="true" />
     <type fullname="RenderBannersLibrary/RenderBannerPrefab" preserve="nothing" serialized="true" />
     <type fullname="Chunk" preserve="nothing" serialized="true" />
@@ -374,6 +380,7 @@
     <type fullname="TaskHardnessPair" preserve="nothing" serialized="true" />
     <type fullname="UISizeSettingsScriptable/AbstractSize" preserve="nothing" serialized="true" />
     <type fullname="UISizeSettingsScriptable/DeviceUISize" preserve="nothing" serialized="true" />
+    <type fullname="LanguageTextsBoxScriptable/LanguageText" preserve="nothing" serialized="true" />
     <type fullname="WordData" preserve="nothing" serialized="true" />
     <type fullname="WordDataListScriptable/WordDataWrapper" preserve="nothing" serialized="true" />
     <type fullname="ECparticleColorChangerMaster/colorChange" preserve="nothing" serialized="true" />
