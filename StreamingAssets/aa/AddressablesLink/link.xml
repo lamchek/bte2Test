@@ -118,6 +118,7 @@
     <type fullname="InteractableLight" preserve="all" />
     <type fullname="InteractableLightSwitcher" preserve="all" />
     <type fullname="InteractableObject" preserve="all" />
+    <type fullname="IntroCheckWasdControl" preserve="all" />
     <type fullname="IntroInputSelector" preserve="all" />
     <type fullname="IntroLoadingController" preserve="all" />
     <type fullname="IntroOuterSpace" preserve="all" />
@@ -222,6 +223,7 @@
     <type fullname="ParktronikWarning" preserve="all" />
     <type fullname="PauseUI" preserve="all" />
     <type fullname="PlanetAnimation" preserve="all" />
+    <type fullname="PlanetMovement" preserve="all" />
     <type fullname="Player.Cillian.BottomUI.BottomUI" preserve="all" />
     <type fullname="Player.Cillian.Cillian" preserve="all" />
     <type fullname="Player.Cillian.CillianIcons" preserve="all" />
@@ -268,8 +270,8 @@
     <type fullname="Results.RandomExerciseResultSource" preserve="all" />
     <type fullname="Results.ResultBox.BaseResultBox" preserve="all" />
     <type fullname="ResultScriptable" preserve="all" />
+    <type fullname="RotateToMainCameraPlanet" preserve="all" />
     <type fullname="RotateToMainCameraWithoutX" preserve="all" />
-    <type fullname="RotateToMainCameraWithoutXPlanet" preserve="all" />
     <type fullname="SceneCounter" preserve="all" />
     <type fullname="SceneHelper" preserve="all" />
     <type fullname="Services.PostEffects.AberrationEffects" preserve="all" />
@@ -299,6 +301,7 @@
     <type fullname="StarterAssets.MyFirstPersonController" preserve="all" />
     <type fullname="StarterAssets.MyStarterAssetsInputs" preserve="all" />
     <type fullname="SwipeOrPressTmp" preserve="all" />
+    <type fullname="TagCollider" preserve="all" />
     <type fullname="TapOrPressScreen" preserve="all" />
     <type fullname="TargetsMumBottom" preserve="all" />
     <type fullname="TargetsMumTop" preserve="all" />
