@@ -334,12 +334,12 @@
     <type fullname="RichWord" preserve="nothing" serialized="true" />
     <type fullname="TaskData" preserve="nothing" serialized="true" />
     <type fullname="ExerciseReferenceData" preserve="nothing" serialized="true" />
-    <type fullname="Paragraph" preserve="nothing" serialized="true" />
-    <type fullname="Paragraph/ParagraphTranslate" preserve="nothing" serialized="true" />
-    <type fullname="Sentence" preserve="nothing" serialized="true" />
     <type fullname="UnloadAdditionalHomeScenes/SceneReference" preserve="nothing" serialized="true" />
     <type fullname="ListenFlyDeepTextReferenceData" preserve="nothing" serialized="true" />
     <type fullname="LoadAdditionalHomeScenes/SceneReference" preserve="nothing" serialized="true" />
+    <type fullname="Paragraph" preserve="nothing" serialized="true" />
+    <type fullname="Paragraph/ParagraphTranslate" preserve="nothing" serialized="true" />
+    <type fullname="Sentence" preserve="nothing" serialized="true" />
     <type fullname="LibraryDeepTextItem/LibraryDeepTextReferenceItem" preserve="nothing" serialized="true" />
     <type fullname="RenderBannersLibrary/RenderBannerPrefab" preserve="nothing" serialized="true" />
     <type fullname="Chunk" preserve="nothing" serialized="true" />
