@@ -153,7 +153,9 @@
     <type fullname="Lessons.Occlusion_Cookie.OcclusionCookieMaster" preserve="all" />
     <type fullname="Lessons.Occlusion_Cookie.OcclusionCookieParent" preserve="all" />
     <type fullname="Lessons.Occlusion_Cookie.OcclusionCookieScene" preserve="all" />
+    <type fullname="LessonSelector" preserve="all" />
     <type fullname="LessonsList" preserve="all" />
+    <type fullname="LessonTitle" preserve="all" />
     <type fullname="LessonToHallDoor" preserve="all" />
     <type fullname="LibraryDataHolder" preserve="all" />
     <type fullname="LibraryDeepTextItem" preserve="all" />
@@ -167,6 +169,7 @@
     <type fullname="LibrarySettings" preserve="all" />
     <type fullname="LibrarySkillAccruer" preserve="all" />
     <type fullname="LibrarySpelling" preserve="all" />
+    <type fullname="LibraryTitle" preserve="all" />
     <type fullname="ListenFlyAmbient" preserve="all" />
     <type fullname="ListenFlyClearPath" preserve="all" />
     <type fullname="ListenFlyDataHolder" preserve="all" />
@@ -240,6 +243,7 @@
     <type fullname="PointLeftRight" preserve="all" />
     <type fullname="PointRotate" preserve="all" />
     <type fullname="PostEffects" preserve="all" />
+    <type fullname="PosterResultBox" preserve="all" />
     <type fullname="PostProcessingRoot" preserve="all" />
     <type fullname="PrepositionsPlayground.PlayerPickUpDrop" preserve="all" />
     <type fullname="ProjectData" preserve="all" />
@@ -515,6 +519,9 @@
     <type fullname="TMPro.TMP_FontWeightPair" preserve="nothing" serialized="true" />
     <type fullname="TMPro.VertexGradient" preserve="nothing" serialized="true" />
     <type fullname="TMPro.TMP_Character" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.TMP_GlyphAdjustmentRecord" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.TMP_GlyphPairAdjustmentRecord" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.TMP_GlyphValueRecord" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="UnityEngine.AnimationModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.Animation" preserve="all" />
