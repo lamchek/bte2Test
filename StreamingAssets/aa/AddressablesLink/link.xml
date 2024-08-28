@@ -65,7 +65,6 @@
     <type fullname="EnergyAudio" preserve="all" />
     <type fullname="EnergyConsumption" preserve="all" />
     <type fullname="EnterExitCollider" preserve="all" />
-    <type fullname="ExerciseList_old" preserve="all" />
     <type fullname="ExerciseListItems" preserve="all" />
     <type fullname="ExerciseListLocal" preserve="all" />
     <type fullname="ExerciseMonitor" preserve="all" />
@@ -337,16 +336,15 @@
     <type fullname="Exercise" preserve="nothing" serialized="true" />
     <type fullname="RichWord" preserve="nothing" serialized="true" />
     <type fullname="TaskData" preserve="nothing" serialized="true" />
-    <type fullname="ExerciseReferenceData" preserve="nothing" serialized="true" />
     <type fullname="UnloadAdditionalHomeScenes/SceneReference" preserve="nothing" serialized="true" />
     <type fullname="ListenFlyDeepTextReferenceData" preserve="nothing" serialized="true" />
     <type fullname="LoadAdditionalHomeScenes/SceneReference" preserve="nothing" serialized="true" />
     <type fullname="Paragraph" preserve="nothing" serialized="true" />
     <type fullname="Paragraph/ParagraphTranslate" preserve="nothing" serialized="true" />
     <type fullname="Sentence" preserve="nothing" serialized="true" />
+    <type fullname="Chunk" preserve="nothing" serialized="true" />
     <type fullname="LibraryDeepTextItem/LibraryDeepTextReferenceItem" preserve="nothing" serialized="true" />
     <type fullname="RenderBannersLibrary/RenderBannerPrefab" preserve="nothing" serialized="true" />
-    <type fullname="Chunk" preserve="nothing" serialized="true" />
     <type fullname="ActionButtonTextScriptable/LanguageText" preserve="nothing" serialized="true" />
     <type fullname="AdjustableCameraAnglesScriptable/AspectRatioAngles" preserve="nothing" serialized="true" />
     <type fullname="Ambients/AmbientAudio" preserve="nothing" serialized="true" />
@@ -433,13 +431,12 @@
   <assembly fullname="Unity.Addressables, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" preserve="all">
     <type fullname="UnityEngine.AddressableAssets.Addressables" preserve="all" />
     <type fullname="UnityEngine.AddressableAssets.AssetReference" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.AddressableAssets.AssetReferenceT`1[ExerciseScriptable]" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.AddressableAssets.AssetReferenceT`1[ListenFlyDeepTextScriptable]" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.AddressableAssets.AssetReferenceT`1[LibraryDeepTextScriptable]" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.AddressableAssets.AssetReferenceT`1[ExerciseListLocal]" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.AddressableAssets.AssetReferenceT`1[AdvertisementRoot]" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.AddressableAssets.AssetReferenceT`1[FontStyle]" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.AddressableAssets.AssetReferenceT`1[WordDataListScriptable]" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.AddressableAssets.AssetReferenceT`1[ExerciseListLocal]" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.AddressableAssets.AssetReferenceT`1[InfoExerciseListScriptable]" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="Unity.InputSystem, Version=1.7.0.0, Culture=neutral, PublicKeyToken=null">
