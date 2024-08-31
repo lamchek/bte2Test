@@ -11,6 +11,7 @@
     <type fullname="AdvertisementRoot" preserve="all" />
     <type fullname="AfterListenFlyLoadingController" preserve="all" />
     <type fullname="Ambients" preserve="all" />
+    <type fullname="AnimationEventListener" preserve="all" />
     <type fullname="AnimatorActivateCollider" preserve="all" />
     <type fullname="AttackLampsBar" preserve="all" />
     <type fullname="AttackTarget" preserve="all" />
@@ -400,9 +401,8 @@
     <type fullname="Cinemachine.CinemachineBlenderSettings" preserve="all" />
     <type fullname="Cinemachine.CinemachineBlendListCamera" preserve="all" />
     <type fullname="Cinemachine.CinemachineBrain" preserve="all" />
-    <type fullname="Cinemachine.CinemachineComposer" preserve="all" />
+    <type fullname="Cinemachine.CinemachineHardLookAt" preserve="all" />
     <type fullname="Cinemachine.CinemachinePipeline" preserve="all" />
-    <type fullname="Cinemachine.CinemachineTransposer" preserve="all" />
     <type fullname="Cinemachine.CinemachineVirtualCamera" preserve="all" />
     <type fullname="Cinemachine.NoiseSettings" preserve="all" />
     <type fullname="Cinemachine.CinemachineBlendDefinition" preserve="nothing" serialized="true" />
