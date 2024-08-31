@@ -193,13 +193,6 @@
     <type fullname="LoadingDependencies" preserve="all" />
     <type fullname="MainCamera" preserve="all" />
     <type fullname="MainPlayer" preserve="all" />
-    <type fullname="MainScene.Player.Characteristics.Characteristic" preserve="all" />
-    <type fullname="MainScene.Player.Cillian.CillianFactory" preserve="all" />
-    <type fullname="MainScene.Player.Cillian.CillianLoader" preserve="all" />
-    <type fullname="MainScene.Player.Cillian.CillianTimer3d" preserve="all" />
-    <type fullname="MainScene.Player.Cillian.MainUI" preserve="all" />
-    <type fullname="MainScene.Player.PlayerLight" preserve="all" />
-    <type fullname="MainScene.Services.RenderScaler" preserve="all" />
     <type fullname="MainSceneEntryPoint" preserve="all" />
     <type fullname="MainSceneLoader" preserve="all" />
     <type fullname="MechanicsInfoScriptable" preserve="all" />
@@ -286,6 +279,13 @@
     <type fullname="Services.PostEffects.LensEffects" preserve="all" />
     <type fullname="Services.PostEffects.VignetteEffects" preserve="all" />
     <type fullname="Settings" preserve="all" />
+    <type fullname="Settings_SO.Player.Characteristics.Characteristic" preserve="all" />
+    <type fullname="Settings_SO.Player.Cillian.CillianFactory" preserve="all" />
+    <type fullname="Settings_SO.Player.Cillian.CillianLoader" preserve="all" />
+    <type fullname="Settings_SO.Player.Cillian.CillianTimer3d" preserve="all" />
+    <type fullname="Settings_SO.Player.Cillian.MainUI" preserve="all" />
+    <type fullname="Settings_SO.Player.PlayerLight" preserve="all" />
+    <type fullname="Settings_SO.Services.RenderScaler" preserve="all" />
     <type fullname="SettingsUI" preserve="all" />
     <type fullname="ShapesFX.Rotator" preserve="all" />
     <type fullname="ShnoppyBaseText" preserve="all" />
@@ -306,6 +306,7 @@
     <type fullname="StarterAssets.MyFirstPersonController" preserve="all" />
     <type fullname="StarterAssets.MyStarterAssetsInputs" preserve="all" />
     <type fullname="SwipeOrPressTmp" preserve="all" />
+    <type fullname="SwitchMicrophoneMode" preserve="all" />
     <type fullname="TagCollider" preserve="all" />
     <type fullname="TapOrPressScreen" preserve="all" />
     <type fullname="TargetsMumBottom" preserve="all" />
