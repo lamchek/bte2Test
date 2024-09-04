@@ -41,6 +41,7 @@
     <type fullname="ClearAsteroidsZone" preserve="all" />
     <type fullname="CloudService" preserve="all" />
     <type fullname="CockpitLight" preserve="all" />
+    <type fullname="ColliderForPlayer" preserve="all" />
     <type fullname="ColliderWithUnityEvent" preserve="all" />
     <type fullname="ColorLookupEffects" preserve="all" />
     <type fullname="ComboEffects" preserve="all" />
@@ -101,6 +102,7 @@
     <type fullname="HomeStationInfoExerciseListSelector" preserve="all" />
     <type fullname="HomeStationLoadingWays" preserve="all" />
     <type fullname="HomeStationRandomExerciseWithInfo" preserve="all" />
+    <type fullname="HomeStationSimpleLoadingController" preserve="all" />
     <type fullname="HorseAnimation" preserve="all" />
     <type fullname="InfoAndRandomExerciseDataHolder" preserve="all" />
     <type fullname="InfoCornerService" preserve="all" />
@@ -133,6 +135,7 @@
     <type fullname="LessonElevator" preserve="all" />
     <type fullname="LessonElevatorConnecting" preserve="all" />
     <type fullname="LessonElevatorInteractable" preserve="all" />
+    <type fullname="LessonElevatorTitleTypeCollider" preserve="all" />
     <type fullname="LessonEntryPoint" preserve="all" />
     <type fullname="LessonExerciseListDataHolder" preserve="all" />
     <type fullname="LessonExerciseProvider" preserve="all" />
@@ -273,6 +276,7 @@
     <type fullname="RotateToMainCameraWithoutX" preserve="all" />
     <type fullname="SceneCounter" preserve="all" />
     <type fullname="SceneHelper" preserve="all" />
+    <type fullname="ScrollerService" preserve="all" />
     <type fullname="Services.PostEffects.AberrationEffects" preserve="all" />
     <type fullname="Services.PostEffects.BlurEffects" preserve="all" />
     <type fullname="Services.PostEffects.ColorEffects" preserve="all" />
@@ -290,6 +294,7 @@
     <type fullname="Settings_SO.Services.RenderScaler" preserve="all" />
     <type fullname="SettingsUI" preserve="all" />
     <type fullname="ShapesFX.Rotator" preserve="all" />
+    <type fullname="ShowScrollerUI" preserve="all" />
     <type fullname="SiloDoors" preserve="all" />
     <type fullname="SkillAccruer" preserve="all" />
     <type fullname="SkillItemAnimation" preserve="all" />
@@ -525,9 +530,6 @@
     <type fullname="TMPro.TMP_FontWeightPair" preserve="nothing" serialized="true" />
     <type fullname="TMPro.VertexGradient" preserve="nothing" serialized="true" />
     <type fullname="TMPro.TMP_Character" preserve="nothing" serialized="true" />
-    <type fullname="TMPro.TMP_GlyphAdjustmentRecord" preserve="nothing" serialized="true" />
-    <type fullname="TMPro.TMP_GlyphPairAdjustmentRecord" preserve="nothing" serialized="true" />
-    <type fullname="TMPro.TMP_GlyphValueRecord" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="UnityEngine.AnimationModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.Animation" preserve="all" />
@@ -570,6 +572,7 @@
     <type fullname="UnityEngine.Events.PersistentCallGroup" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Events.PersistentListenerMode" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Events.UnityEvent" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Events.UnityEvent`1[UnityEngine.Collider]" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Events.UnityEvent`1[Recognissimo.InitializationException]" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Events.UnityEvent`1[Recognissimo.RuntimeException]" preserve="nothing" serialized="true" />
   </assembly>
