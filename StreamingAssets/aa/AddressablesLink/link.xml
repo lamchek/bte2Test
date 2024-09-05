@@ -277,6 +277,7 @@
     <type fullname="SceneCounter" preserve="all" />
     <type fullname="SceneHelper" preserve="all" />
     <type fullname="ScrollerService" preserve="all" />
+    <type fullname="ScrollerSwitcher" preserve="all" />
     <type fullname="Services.PostEffects.AberrationEffects" preserve="all" />
     <type fullname="Services.PostEffects.BlurEffects" preserve="all" />
     <type fullname="Services.PostEffects.ColorEffects" preserve="all" />
@@ -294,7 +295,6 @@
     <type fullname="Settings_SO.Services.RenderScaler" preserve="all" />
     <type fullname="SettingsUI" preserve="all" />
     <type fullname="ShapesFX.Rotator" preserve="all" />
-    <type fullname="ShowScrollerUI" preserve="all" />
     <type fullname="SiloDoors" preserve="all" />
     <type fullname="SkillAccruer" preserve="all" />
     <type fullname="SkillItemAnimation" preserve="all" />
