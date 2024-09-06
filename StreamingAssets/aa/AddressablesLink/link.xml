@@ -30,6 +30,7 @@
     <type fullname="ButtonColliderWithoutMesh" preserve="all" />
     <type fullname="CharacteristicSettings" preserve="all" />
     <type fullname="CheckMicrophoneMode" preserve="all" />
+    <type fullname="CheckWasdControl" preserve="all" />
     <type fullname="ChooseCorrectOption" preserve="all" />
     <type fullname="ChooseOptionsTmp" preserve="all" />
     <type fullname="ChooseOptionsUI" preserve="all" />
@@ -120,7 +121,6 @@
     <type fullname="InteractableLight" preserve="all" />
     <type fullname="InteractableLightSwitcher" preserve="all" />
     <type fullname="InteractableObject" preserve="all" />
-    <type fullname="IntroCheckWasdControl" preserve="all" />
     <type fullname="IntroInputSelector" preserve="all" />
     <type fullname="IntroLoadingController" preserve="all" />
     <type fullname="IntroOuterSpace" preserve="all" />
@@ -314,7 +314,6 @@
     <type fullname="SwipeOrPressTmp" preserve="all" />
     <type fullname="SwitchMicrophoneMode" preserve="all" />
     <type fullname="TagCollider" preserve="all" />
-    <type fullname="TapOrPressScreen" preserve="all" />
     <type fullname="TargetsMumBottom" preserve="all" />
     <type fullname="TargetsMumTop" preserve="all" />
     <type fullname="TaskFactory" preserve="all" />
