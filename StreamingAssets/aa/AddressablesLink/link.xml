@@ -46,6 +46,8 @@
     <type fullname="ColliderWithUnityEvent" preserve="all" />
     <type fullname="ColorLookupEffects" preserve="all" />
     <type fullname="ComboEffects" preserve="all" />
+    <type fullname="ConnectingPlane" preserve="all" />
+    <type fullname="ConnectingPlanes" preserve="all" />
     <type fullname="ContentLoader" preserve="all" />
     <type fullname="ContentLoadTimer" preserve="all" />
     <type fullname="CreatePlayerFriend" preserve="all" />
