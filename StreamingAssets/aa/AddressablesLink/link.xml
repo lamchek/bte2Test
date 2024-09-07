@@ -313,7 +313,7 @@
     <type fullname="Spelling" preserve="all" />
     <type fullname="StarterAssets.MyFirstPersonController" preserve="all" />
     <type fullname="StarterAssets.MyStarterAssetsInputs" preserve="all" />
-    <type fullname="SwipeOrPressTmp" preserve="all" />
+    <type fullname="SwipeOrPressSpaceController" preserve="all" />
     <type fullname="SwitchMicrophoneMode" preserve="all" />
     <type fullname="TagCollider" preserve="all" />
     <type fullname="TargetsMumBottom" preserve="all" />
