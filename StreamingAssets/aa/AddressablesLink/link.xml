@@ -29,6 +29,7 @@
     <type fullname="BridgeLightChanger" preserve="all" />
     <type fullname="ButtonColliderWithoutMesh" preserve="all" />
     <type fullname="CharacteristicSettings" preserve="all" />
+    <type fullname="CheckLodLevel" preserve="all" />
     <type fullname="CheckMicrophoneMode" preserve="all" />
     <type fullname="CheckWasdControl" preserve="all" />
     <type fullname="ChooseCorrectOption" preserve="all" />
@@ -336,6 +337,7 @@
     <type fullname="UnloadAdditionalHomeScenes" preserve="all" />
     <type fullname="UserIdCorner" preserve="all" />
     <type fullname="UserQualitySettings" preserve="all" />
+    <type fullname="WarmUpShaders" preserve="all" />
     <type fullname="WordBrick" preserve="all" />
     <type fullname="WordDataListScriptable" preserve="all" />
     <type fullname="WordSpawner" preserve="all" />
